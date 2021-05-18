@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Webcam from "react-webcam";
 
-const Camera = ({}) => {
+const Camera = () => {
   const camRef = useRef(null);
   return (
     <>
